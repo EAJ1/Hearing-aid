@@ -1,120 +1,51 @@
 # Aawaj Hearing Aid Company Website
 
-A modern, responsive website for Aawaj Hearing Aid Company, showcasing innovative hearing solutions with cutting-edge technology and empathetic care.
+A static website presenting hearing devices, accessories, services, and contact information. Built with HTML, CSS, and vanilla JavaScript, with Roboto loaded from Google Fonts when online.
 
-## 🌟 Features
+## Getting started
 
-- **Responsive Design**: Optimized for all devices (desktop, tablet, mobile)
-- **Interactive Hero Section**: Animated title, statistics, features, and call-to-action button
-- **Product Showcase**: Grid layout displaying various hearing aid products and accessories
-- **About Section**: Company mission and values
-- **Contact Form**: Integrated contact information and form for inquiries
-- **Smooth Animations**: CSS animations and JavaScript interactions for enhanced user experience
-- **Accessibility**: Support for reduced motion, high contrast, and keyboard navigation
+Open `index.html` in a modern browser. No build step or server is required.
 
-## 🛠️ Technologies Used
+## Project structure
 
-- **HTML5**: Semantic markup for structure
-- **CSS3**: Modern styling with gradients, animations, and responsive design
-- **JavaScript**: Interactive features and animations
-- **Google Fonts**: Roboto font family for typography
+- `index.html`: page content and contact configuration
+- `styles.css`: layout, responsive styles, and CSS animations
+- `script.js`: email draft handling
+- `TODO.md`: remaining launch checks
+- Image files (`.jpg`, `.jpeg`, `.webp`) live in the project root.
 
-## 📁 Project Structure
+## Contact configuration
 
-```
-/
-├── index.html          # Main HTML file
-├── styles.css          # CSS stylesheets
-├── script.js           # JavaScript for interactions
-├── README.md           # Project documentation
-├── TODO.md             # Development tasks
-└── images/             # Product and hero images
-    ├── Kid.jpg
-    ├── hearing-aid.webp
-    ├── Hearing-aid-parts-hh19.jpg
-    ├── B454122_battery_675.jpg
-    ├── hearing_aids_for_free.jpeg-e1689143407754.webp
-    ├── images.jpeg
-    └── woman with hearing aid.webp
-```
+Contact details and opening hours are placeholders pending confirmation. The form is disabled by default to avoid losing inquiries.
 
-## 🚀 Getting Started
+Set `data-contact-email=""` on the form in `index.html` to a verified email address and update the displayed contact details. JavaScript then enables the form. Submitting opens an email draft in the visitor's configured email application; the visitor must send it there. This website does not send or store inquiries and has no backend. Without JavaScript, the form remains disabled.
 
-### Prerequisites
+## Design and accessibility
 
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- No server required - this is a static website
+The site has responsive product and service grids, a single-column contact section on smaller screens, wrapping navigation, labeled form controls, and keyboard focus indicators. CSS respects reduced-motion preferences and includes a forced-colors adjustment. Browser and assistive-technology testing are still required before claiming full accessibility support.
 
-### Installation
+## Customization
 
-1. Clone or download the repository
-2. Open `index.html` in your web browser
+Edit content and local image paths in `index.html`, and colors and layout in `styles.css`. The main mobile breakpoint is 768px. Unverified testimonials, statistics, certification badges, warranty, and support promises have been removed; only publish verified business claims and authorized customer stories.
 
-### Usage
+## Validation
 
-- Navigate through the sections using the fixed navigation bar
-- Scroll to explore different sections
-- Use the contact form to send inquiries
-- Hover over product cards for interactive effects
+Run `node --check script.js` to check JavaScript syntax. Before launch, test keyboard navigation, narrow and desktop layouts, reduced motion, and the configured email draft flow in real browsers. Confirm contact information and image usage rights.
 
-## 🎨 Design Highlights
-
-- **Gradient Backgrounds**: Dynamic color schemes throughout the site
-- **Glassmorphism**: Backdrop blur effects on cards and sections
-- **Parallax Effects**: Mouse movement and scroll-based animations
-- **Typography**: Gradient text effects and responsive font sizing
-- **Sound Wave Animation**: Interactive visual elements in the hero section
-
-## 📱 Responsive Breakpoints
-
-- Desktop: > 768px
-- Tablet/Mobile: ≤ 768px
-
-## ♿ Accessibility Features
-
-- Semantic HTML structure
-- Keyboard navigation support
-- Reduced motion support for users with vestibular disorders
-- High contrast mode compatibility
-- Focus indicators for interactive elements
-
-## 🔧 Customization
-
-### Colors
-The primary color scheme uses gradients of blue (#1e3a8a) and green (#059669). Modify these in `styles.css` to change the theme.
-
-### Content
-Update text, images, and contact information directly in `index.html`.
-
-### Animations
-Adjust animation timings and effects in `styles.css` and `script.js`.
-
-## 📈 Performance
-
-- Optimized images for web
-- CSS animations for smooth performance
-- Minimal JavaScript for fast loading
-- Responsive images that scale appropriately
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test across different browsers and devices
-5. Submit a pull request
-
-## 📄 License
+## License
 
 This project is proprietary to Aawaj Hearing Aid Company.
 
-## 📞 Contact
+## Deploy to GitHub Pages
 
-For questions or support:
-- Email: info@aawajhearing.com
-- Phone: (123) 456-7890
-- Address: 123 Hearing Way, Sound City, SC 12345
+The repository is `https://github.com/EAJ1/Hearing-aid`.
 
----
+1. Commit and push the website files to `main`.
+2. Open the repository's **Settings → Pages**.
+3. Under **Build and deployment**, choose **Deploy from a branch**.
+4. Select **main** and **/(root)**, then click **Save**.
+5. Wait for the Pages deployment to finish in the **Actions** tab.
 
-*Empowering lives through better hearing since 2008*
+The expected site address is https://EAJ1.github.io/Hearing-aid/. Future pushes to `main` redeploy the site automatically once Pages is enabled. The root `.nojekyll` file tells Pages to serve the static files without Jekyll processing.
+
+The contact form remains disabled until a verified recipient is configured; deployment does not add an email backend.

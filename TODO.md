@@ -1,21 +1,12 @@
-# TODO: Add More Information to Hero Section
+# Launch checklist
 
-## Information Gathered
-- Hero section currently has title, subtitle, 3 features, CTA button, and image.
-- User wants to add more information to make it more informative.
-- Need to expand content while maintaining design and animations.
-
-## Plan
-- [x] Add more detailed description paragraph.
-- [x] Include statistics or key facts.
-- [x] Add more feature items (expand to 5-6).
-- [x] Include a brief company mission statement.
-- [x] Add trust indicators or certifications.
-
-## Dependent Files to Edit
-- index.html: Add more content to hero-text section.
-- styles.css: Adjust spacing if needed for additional content.
-
-## Followup Steps
-- [ ] Test readability and visual appeal.
-- [ ] Verify responsiveness.
+- [x] Load JavaScript and remove inactive animation code.
+- [x] Remove unverified testimonials and promotional claims.
+- [x] Replace placeholder business information with explicit pending details.
+- [x] Add configurable email draft flow, disabled until a recipient is configured.
+- [x] Add wrapping navigation and a single-column mobile contact layout.
+- [x] Respect reduced motion and update documentation.
+- [ ] Supply verified email, phone, address, and opening hours.
+- [ ] Confirm image usage rights and business content.
+- [ ] Test mobile and desktop browsers, keyboard navigation, and forced colors.
+- [ ] Test email draft opening with a configured email application.
