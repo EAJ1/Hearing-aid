@@ -49,3 +49,7 @@ The repository is `https://github.com/EAJ1/Hearing-aid`.
 The expected site address is https://EAJ1.github.io/Hearing-aid/. Future pushes to `main` redeploy the site automatically once Pages is enabled. The root `.nojekyll` file tells Pages to serve the static files without Jekyll processing.
 
 The contact form remains disabled until a verified recipient is configured; deployment does not add an email backend.
+
+### Browser checks completed
+
+Headless Chrome checks passed at viewport widths of 320, 375, 768, 1024, and 1440 pixels: no horizontal overflow or JavaScript runtime errors, a working first-tab skip link, and a single-column contact section at mobile widths. Reduced-motion and forced-colors modes were exercised. Safari, Firefox, screen-reader testing, and sending through a configured email application remain unverified.

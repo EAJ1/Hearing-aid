@@ -8,5 +8,6 @@
 - [x] Respect reduced motion and update documentation.
 - [ ] Supply verified email, phone, address, and opening hours.
 - [ ] Confirm image usage rights and business content.
-- [ ] Test mobile and desktop browsers, keyboard navigation, and forced colors.
+- [x] Check Chrome at mobile and desktop widths, first-tab skip link, reduced motion, and forced-colors heading visibility.
+- [ ] Test Safari, Firefox, and screen readers.
 - [ ] Test email draft opening with a configured email application.

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Aawaj hearing devices, accessories, and hearing care services.">
     <title>Aawaj Hearing Aid Company</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,8 +12,9 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header>
-        <nav>
+        <nav aria-label="Main navigation">
             <div class="logo">
                 <h1>Aawaj Hearing Aid</h1>
             </div>
@@ -26,6 +28,7 @@
         </nav>
     </header>
 
+    <main id="main-content" tabindex="-1">
     <section id="home" class="hero">
         <div class="hero-container">
             <div class="hero-text">
@@ -49,7 +52,7 @@
                 <a href="#products" class="cta-button fade-in delay-3">Explore Our Products</a>
             </div>
             <div class="hero-image">
-                <img src="Kid.jpg" alt="Child wearing a hearing device">
+                <img decoding="async" fetchpriority="high" src="Kid.jpg" alt="Child wearing a hearing device">
                 <div class="image-overlay">
                     <div class="sound-waves">
                         <div class="wave wave-1"></div>
@@ -113,27 +116,27 @@
             <h2>Our Products</h2>
             <div class="product-grid">
                 <div class="product-item">
-                    <img src="hearing-aid.webp" alt="Hearing aid device">
+                    <img loading="lazy" decoding="async" src="hearing-aid.webp" alt="Hearing aid device">
                     <h3>Premium Hearing Aid</h3>
                     <p>Experience crystal-clear sound with our latest model, designed for comfort and performance.</p>
                 </div>
                 <div class="product-item">
-                    <img src="Hearing-aid-parts-hh19.jpg" alt="Detailed view of hearing aid components and parts">
+                    <img loading="lazy" decoding="async" src="Hearing-aid-parts-hh19.jpg" alt="Detailed view of hearing aid components and parts">
                     <h3>Hearing Aid Components</h3>
                     <p>High-quality parts ensuring durability and optimal functionality.</p>
                 </div>
                 <div class="product-item">
-                    <img src="B454122_battery_675.jpg" alt="Hearing aid battery pack for extended use">
+                    <img loading="lazy" decoding="async" src="B454122_battery_675.jpg" alt="Hearing aid battery pack for extended use">
                     <h3>Long-Life Batteries</h3>
                     <p>Reliable power sources for uninterrupted hearing support.</p>
                 </div>
                 <div class="product-item">
-                    <img src="hearing_aids_for_free.jpeg-e1689143407754.webp" alt="Accessible hearing aid options for various needs">
+                    <img loading="lazy" decoding="async" src="hearing_aids_for_free.jpeg-e1689143407754.webp" alt="Accessible hearing aid options for various needs">
                     <h3>Accessible Solutions</h3>
                     <p>Affordable and effective hearing aids tailored to different lifestyles.</p>
                 </div>
                 <div class="product-item">
-                    <img src="images.jpeg" alt="Collection of hearing aid devices and accessories">
+                    <img loading="lazy" decoding="async" src="images.jpeg" alt="Collection of hearing aid devices and accessories">
                     <h3>Complete Hearing Kit</h3>
                     <p>Everything you need for comprehensive hearing care in one package.</p>
                 </div>
@@ -183,11 +186,11 @@
                         <fieldset disabled>
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="name" autocomplete="name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="email" autocomplete="email" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
@@ -201,6 +204,7 @@
         </div>
     </section>
 
+    </main>
     <footer>
         <p>&copy; 2026 Aawaj Hearing Aid Company. All rights reserved.</p>
     </footer>
