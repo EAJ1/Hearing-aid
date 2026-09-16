@@ -25,7 +25,7 @@ Set `data-contact-email=""` on the form in `index.html` to a verified email addr
 
 ## Design and accessibility
 
-The site uses a calm blue-and-green palette, a gentle continuous floating animation on the child’s photo (disabled for reduced-motion preferences), consistent line icons, and matching product image frames that preserve the full image. The hero links directly to products and contact information. Responsive product and service grids, a single-column contact section on smaller screens, wrapping navigation, labeled form controls, and keyboard focus indicators support navigation. CSS respects reduced-motion preferences and includes a forced-colors adjustment. Browser and assistive-technology testing are still required before claiming full accessibility support.
+The site uses a calm blue-and-green palette, a gentle continuous floating animation on the child’s photo (disabled for reduced-motion preferences), inline SVG line icons with shared 24 × 24 sizing and the same drawn shapes on mobile and desktop, and matching product image frames that preserve the full image. The hero links directly to products and contact information. Responsive product and service grids, a single-column contact section on smaller screens, wrapping navigation, labeled form controls, and keyboard focus indicators support navigation. CSS respects reduced-motion preferences and includes a forced-colors adjustment. Browser and assistive-technology testing are still required before claiming full accessibility support.
 
 ## Customization
 
