@@ -1,3 +1,16 @@
+const photoButton = document.querySelector('.photo-button');
+if (photoButton) {
+    photoButton.addEventListener('click', () => {
+        photoButton.classList.remove('is-moving');
+        // Restart the short movement on each click, including repeated clicks.
+        void photoButton.offsetWidth;
+        photoButton.classList.add('is-moving');
+    });
+    photoButton.addEventListener('animationend', () => {
+        photoButton.classList.remove('is-moving');
+    });
+}
+
 // Contact stays unavailable until a verified recipient is configured in index.html.
 const form = document.querySelector('#contact-form');
 if (form) {

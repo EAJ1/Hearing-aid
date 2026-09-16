@@ -30,6 +30,13 @@ section { padding-block: 80px; scroll-margin-top: 24px; }
 .secondary-link { font-weight: 700; }
 .hero-note { font-size: .85rem; }
 .hero-image img { width: 100%; height: 410px; object-fit: cover; border-radius: 20px; }
+.photo-button { display: block; width: 100%; padding: 0; border: 0; border-radius: 20px; background: transparent; cursor: pointer; }
+.photo-button.is-moving { animation: photo-sway 900ms ease-in-out; }
+@keyframes photo-sway {
+    0%, 100% { transform: translateY(0) rotate(0); }
+    30% { transform: translateY(-10px) rotate(-1deg); }
+    65% { transform: translateY(-4px) rotate(1deg); }
+}
 #about { padding-block: 56px; }
 #about .container { max-width: 800px; text-align: center; }
 #about p + p { margin-top: 12px; }
@@ -82,7 +89,10 @@ footer p { color: #fff; font-size: .9rem; }
     .hero-image img { height: 280px; }
     .service-item, .contact-form { padding: 24px; }
 }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .photo-button.is-moving { animation: none; }
+}
 @media (forced-colors: active) {
     .cta-button, .submit-btn, .service-icon, .contact-icon { border: 1px solid ButtonText; }
 }
