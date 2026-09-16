@@ -12,7 +12,7 @@ Open `index.html` in a modern browser. No build step or server is required.
 
 - `index.html`: page content and contact configuration
 - `styles.css`: layout, responsive styles, and accessibility preferences
-- `script.js`: photo click animation and email draft handling
+- `script.js`: email draft handling
 - `logo.svg`: scalable Aawaj logo used in the website header and this README
 - `TODO.md`: remaining launch checks
 - Image files (`.jpg`, `.jpeg`, `.webp`) live in the project root.
@@ -25,7 +25,7 @@ Set `data-contact-email=""` on the form in `index.html` to a verified email addr
 
 ## Design and accessibility
 
-The site uses a calm blue-and-green palette, a short photo sway when the child’s image is clicked, tapped, or activated with Enter or Space (disabled for reduced-motion preferences), consistent line icons, and matching product image frames that preserve the full image. The hero links directly to products and contact information. Responsive product and service grids, a single-column contact section on smaller screens, wrapping navigation, labeled form controls, and keyboard focus indicators support navigation. CSS respects reduced-motion preferences and includes a forced-colors adjustment. Browser and assistive-technology testing are still required before claiming full accessibility support.
+The site uses a calm blue-and-green palette, a gentle continuous floating animation on the child’s photo (disabled for reduced-motion preferences), consistent line icons, and matching product image frames that preserve the full image. The hero links directly to products and contact information. Responsive product and service grids, a single-column contact section on smaller screens, wrapping navigation, labeled form controls, and keyboard focus indicators support navigation. CSS respects reduced-motion preferences and includes a forced-colors adjustment. Browser and assistive-technology testing are still required before claiming full accessibility support.
 
 ## Customization
 
