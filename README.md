@@ -11,7 +11,7 @@ Open `index.html` in a modern browser. No build step or server is required.
 ## Project structure
 
 - `index.html`: page content and contact configuration
-- `styles.css`: layout, responsive styles, and CSS animations
+- `styles.css`: layout, responsive styles, and accessibility preferences
 - `script.js`: email draft handling
 - `logo.svg`: scalable Aawaj logo used in the website header and this README
 - `TODO.md`: remaining launch checks
@@ -25,11 +25,11 @@ Set `data-contact-email=""` on the form in `index.html` to a verified email addr
 
 ## Design and accessibility
 
-The site has responsive product and service grids, a single-column contact section on smaller screens, wrapping navigation, labeled form controls, and keyboard focus indicators. CSS respects reduced-motion preferences and includes a forced-colors adjustment. Browser and assistive-technology testing are still required before claiming full accessibility support.
+The site uses a calm blue-and-green palette, static layouts without decorative animation, consistent line icons, and matching product image frames that preserve the full image. The hero links directly to products and contact information. Responsive product and service grids, a single-column contact section on smaller screens, wrapping navigation, labeled form controls, and keyboard focus indicators support navigation. CSS respects reduced-motion preferences and includes a forced-colors adjustment. Browser and assistive-technology testing are still required before claiming full accessibility support.
 
 ## Customization
 
-Edit content and local image paths in `index.html`, and colors and layout in `styles.css`. The main mobile breakpoint is 768px. Unverified testimonials, statistics, certification badges, warranty, and support promises have been removed; only publish verified business claims and authorized customer stories.
+Edit content and local image paths in `index.html`, and colors and layout in `styles.css`. The main mobile breakpoint is 768px, with grid adjustments at 900px and 480px. Unverified testimonials, statistics, certification badges, warranty, and support promises have been removed; only publish verified business claims and authorized customer stories.
 
 ## Validation
 
@@ -53,6 +53,6 @@ The expected site address is https://EAJ1.github.io/Hearing-aid/. Future pushes 
 
 The contact form remains disabled until a verified recipient is configured; deployment does not add an email backend.
 
-### Browser checks completed
+### Validation status
 
-Headless Chrome checks passed at viewport widths of 320, 375, 768, 1024, and 1440 pixels: no horizontal overflow or JavaScript runtime errors, a working first-tab skip link, and a single-column contact section at mobile widths. Reduced-motion and forced-colors modes were exercised. Safari, Firefox, screen-reader testing, and sending through a configured email application remain unverified.
+Headless Chrome checks passed at viewport widths of 320, 375, 768, 1024, and 1440 pixels: no horizontal overflow, broken images, or JavaScript runtime errors; a working first-tab skip link; and an inquiry form that remains disabled without a recipient. Desktop and mobile screenshots were visually reviewed. Reduced-motion scrolling and forced-colors rendering were also checked. Safari, Firefox, screen readers, and a configured email draft flow remain unverified.

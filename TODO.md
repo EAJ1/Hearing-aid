@@ -11,3 +11,5 @@
 - [x] Check Chrome at mobile and desktop widths, first-tab skip link, reduced motion, and forced-colors heading visibility.
 - [ ] Test Safari, Firefox, and screen readers.
 - [ ] Test email draft opening with a configured email application.
+
+- [x] Simplify page styling, remove decorative motion, unify icons and product image frames, and clarify product copy.
