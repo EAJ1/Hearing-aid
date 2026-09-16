@@ -13,7 +13,7 @@ Open `index.html` in a modern browser. No build step or server is required.
 - `index.html`: page content and contact configuration
 - `styles.css`: layout, responsive styles, and CSS animations
 - `script.js`: email draft handling
-- `logo.svg`: scalable Aawaj logo
+- `logo.svg`: scalable Aawaj logo used in the website header and this README
 - `TODO.md`: remaining launch checks
 - Image files (`.jpg`, `.jpeg`, `.webp`) live in the project root.
 
