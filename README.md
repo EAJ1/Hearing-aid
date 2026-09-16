@@ -1,3 +1,5 @@
+<img src="logo.svg" alt="Aawaj Hearing Aid Company logo" width="400">
+
 # Aawaj Hearing Aid Company Website
 
 A static website presenting hearing devices, accessories, services, and contact information. Built with HTML, CSS, and vanilla JavaScript, with Roboto loaded from Google Fonts when online.
@@ -11,6 +13,7 @@ Open `index.html` in a modern browser. No build step or server is required.
 - `index.html`: page content and contact configuration
 - `styles.css`: layout, responsive styles, and CSS animations
 - `script.js`: email draft handling
+- `logo.svg`: scalable Aawaj logo
 - `TODO.md`: remaining launch checks
 - Image files (`.jpg`, `.jpeg`, `.webp`) live in the project root.
 
